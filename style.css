@@ -72,7 +72,6 @@ body {
 #buttons button {
     width: 6.4rem;
     height: 6.4rem;
-    background-color: white;
     border-radius: 50%;
     border: none;
     box-shadow: 
@@ -95,11 +94,11 @@ body {
     color: #975DFA;
 }
 #buttons button.black {
-    background-color: #2D2A37;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%), #2d2a37;
 }
 #buttons button.purple-1 {
-    background-color: #462878;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%), #462878;
 }
 #buttons button.purple-2 {
-    background-color: #7F45E2;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%), #7F45E2;
 }
