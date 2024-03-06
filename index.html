@@ -10,41 +10,52 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 <body>
-
-    <div id="app">
+    <div id="calculator">
         <div id="display">
-            <h2>1 + 1</h2>
+            <div id="last-calc">1 + 1</div>
             <div id="result">
-                <i class="ph ph-equals"></i>
-                <h1>2</h1>
+                <img src="./assets/equals.svg" alt="Sinal de igual">
+                <span>2</span>
             </div>
         </div>
-        <div id="buttons">
-            <button class="black">CE</button>
-            <button class="black">C</button>
-            <button class="black"><i class="ph ph-percent"></i></button>
-            <button class="purple-1"><i class="ph ph-divide"></i></button>
-            <button class="black">7</button>
-            <button class="black">8</button>
-            <button class="black">9</button>
-            <button class="purple-1"><i class="ph ph-x"></i></button>
-            <button class="black">4</button>
-            <button class="black">5</button>
-            <button class="black">6</button>
-            <button class="purple-1"><i class="ph ph-minus"></i></button>
-            <button class="black">1</button>
-            <button class="black">2</button>
-            <button class="black">3</button>
-            <button class="purple-1"><i class="ph ph-plus"></i></button>
-            <button class="black"><i class="ph ph-plus-minus"></i></button>
-            <button class="black">0</button>
-            <button class="black">,</button>
-            <button class="purple-2"><i class="ph ph-equals"></i></button>
+        <div id="keyboard">
+            <button class="secondary">CE</button>
+            <button>C</button>
+            <button>
+                <img src="./assets/percent.svg" alt="Sinal de porcentagem">
+            </button>
+            <button class="tertiary">
+                <img src="./assets/divide.svg" alt="Sinal de divisão">
+            </button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="tertiary">
+                <img src="./assets/x.svg" alt="Sinal de multiplicação">
+            </button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="tertiary">
+                <img src="./assets/minus.svg" alt="Sinal de subtração">
+            </button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="tertiary">
+                <img src="./assets/plus.svg" alt="Sinal de subtração">
+            </button>
+            <button>
+                <img src="./assets/plusminus.svg" alt="Sinal de soma/subtração">
+            </button>
+            <button>0</button>
+            <button>,</button>
+            <button class="quartiary">
+                <img src="./assets/result.svg" alt="Sinal de igual">
+            </button>
         </div>
     </div>
-    
 </body>
 </html>
